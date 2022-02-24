@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+
+{
+	int minuend = 0;
+	printf("被减数");
+	scanf("%d", &minuend);
+	
+	int subtrahend = 0;
+	printf("减数");
+	scanf("%d", &subtrahend);
+	
+	int difference = minuend - subtrahend;
+	printf("差 %d", difference);
+	 
+	 return 0 ;
+}
