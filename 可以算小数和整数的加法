@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main()
+int main()
 {
 	double x = 0;
 	printf("请输入第一个数");
