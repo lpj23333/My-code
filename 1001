@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+	int n;
+	printf("请输入不超过1000的正整数");
+	scanf("%d",&n);
+	
+	if (n%2==0)
+	{
+		printf("%d",n/2);
+	}
+	else
+	{
+		int x=3*n+1;
+		printf("%d",x/2);
+	}
+	
+	return 0;
+	
+	
+	 
+}
