@@ -9,9 +9,9 @@ int main()
 	int number = rand()%100+1;
 	int count = 0;
 	int a = 0;
-	printf("我已经想好了一个1到100之间的数"); 
+	printf("我已经想好了一个1到100之间的数/n"); 
 	do{
-		printf("请猜一猜这个1到100的数"); 
+		printf("请猜一猜这个1到100的数/n"); 
 		scanf("%d" , &a);
 		count ++;
 		if(a > number){
