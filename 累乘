@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+
+{
+	int begin, end, sum;
+	int i;
+	
+	
+	scanf("%d %d", &begin ,&end);
+	for( i=begin; i<=end; i++){
+		sum +=i;
+	}
+	printf("%d到%d的和是%d", begin, end , sum);
+	return 0;
+}
