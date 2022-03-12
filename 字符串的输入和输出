@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+	char string[8];
+	
+	scanf("%7s" , string);  //7表示只能读七个字符 
+	printf("%s" , string);
+	
+	return 0;
+}
