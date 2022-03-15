@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+
+{
+	struct student  //声明结构体类型 
+	{	long int num;
+		char name[20];
+		char sex;
+		char addr[20];
+	}a = {10101,"Xao Min",'m',"123"};
+	printf("NO:%ld\nname:%s\nsex:%s\naddress:%s\n",a.num,a.name,a.sex,a.addr);
+	
+	return 0;
+}
