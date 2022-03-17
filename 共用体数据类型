@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+union Data
+{
+	char c;
+	float f;
+	int i;
+}a;
+
+int main()
+{	
+	a.i = 10;
+	printf("%d" , a);
+	
+	return 0;
+}
