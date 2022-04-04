@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+	int i,a,b,c;
+	for(i=1;i<=9;i++){
+		for(a=1;a<=i;a++){
+			while(b<i){
+				b++;
+			}
+			c=a*b;
+			printf(" %dx%d=%d\t",a,b,c);
+		}
+	printf("\n");
+	}
+	
+}
