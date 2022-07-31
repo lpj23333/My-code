@@ -1,0 +1,24 @@
+struct Node* connect(struct Node* root) {
+    if (root == NULL) {
+        return root;
+    }
+    struct Node* Q[5000];
+    int left=0,right=0;
+    Q[right++]=root;
+    while(left<right){
+    	int size=right-left;
+    	for(int i=0;i<size;i++){
+    		struct Node* node=Q[left++];
+    		if(i<size-1){
+				node->next=Q[left];
+			}
+			if (node->left != NULL) {
+                Q[right++] = node->left;
+            }
+            if (node->right != NULL) {
+                Q[right++] = node->right;
+            }
+		}
+	}
+	return root;
+}
